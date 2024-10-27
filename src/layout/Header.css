@@ -1,0 +1,58 @@
+body{
+    font-family: "Open Sans", sans-serif;
+
+}
+#ipt{
+border:none;
+ 
+ 
+padding-left: 10px;
+
+}
+#light {
+position: sticky;
+top: 0; /* Adjust this value based on your layout needs */
+z-index: 1000; /* Ensures it stays above other elements */
+}
+
+#hr{
+width: 200px; 
+
+}
+
+#search_icon{
+position: relative;
+right: 50px;
+
+
+
+}
+::placeholder{
+color: black;
+font-weight: 180;  
+font-size: 16px; 
+}
+
+#ul{
+display: flex;
+gap: 50px;
+list-style: none;
+font-size: 13px;
+
+}
+
+
+a{
+text-decoration: none; /* Underline ko hata dena */
+color: #000;          /* Color set karne ke liye */
+}
+
+#icon{
+display: flex;
+gap: 25px;
+color: gray;
+font-size: 1.40em;
+}
+#light{
+background: #f2f2f2;
+}
