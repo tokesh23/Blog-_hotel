@@ -1,0 +1,26 @@
+body,html{
+    overflow-x:hidden;
+}
+
+    #img{
+        height: 45vh;
+        position: relative;
+        left:20px;
+        top:85px;
+        
+    }
+     
+#social{
+height: 75px;
+}
+
+@media (max-width: 460px) {
+#social{
+    height: auto;
+}
+#img{
+    height:auto;
+    margin-bottom:100px;
+}
+
+}

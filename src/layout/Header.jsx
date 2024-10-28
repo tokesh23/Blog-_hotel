@@ -4,10 +4,25 @@ import { FaFacebook } from "react-icons/fa";
 import { CiInstagram } from "react-icons/ci";
 import { FaPinterest } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
-import Blog from "../assets/blog-removebg-preview.png"
+import Blog from "../assets/blog-removebg-preview.png";
+import { useNavigate } from 'react-router-dom';
+import About from "../About.jsx"
 
 
 const Header = () => {
+
+  const navigate=useNavigate()
+
+  const handleAbout =()=>{
+    navigate('/about')
+  }
+  const handleHome=()=>{
+    navigate("/home")
+  }
+  const handleLogin =()=>{
+    navigate("/login")
+  }
+
   return (
     <div>
          <div className="row text-center mt-1 " id="light">
@@ -19,12 +34,12 @@ const Header = () => {
                         <i className="fa-solid fa-magnifying-glass" id="search_icon"></i>
                         {/* <b><hr id="hr" className="text-center"></b> */}
                     </div>
-                    <div className="col-md-4 mt-3" > 
+                    <div className="col-md-4 mt-3" id='content'> 
                         <ul id="ul">
-                            <a href="./index.php"><li>Home</li></a>
-                            <li>About</li>
+                            <li onClick={handleHome}>Home</li>
+                             <li onClick={handleAbout}>About </li>
                             <li>Contact</li>
-                          <a href="./login.php"><li>Login</li></a>
+                          <li onClick={handleLogin}>Login</li>
                         </ul>
                     </div>
                     <div className="col-md-2 mt-3" id="icon" > 

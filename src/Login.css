@@ -1,0 +1,15 @@
+       
+        .card {
+            transition: transform 0.2s;
+            background: #f2f2f2;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .container {
+            padding: 30px;
+        }
+    
+            body,html{
+            overflow-x:hidden;
+        }  
