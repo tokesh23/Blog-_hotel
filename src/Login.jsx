@@ -7,7 +7,7 @@ const Login = () => {
     <div>
       <div id="main">
         <div className="container">
-          <div className="row">
+          <div className="row ">
             <div className="col-md-12 mt-5" id="white">
               <div className="row text-center">
                 <div className="col-md-6 pt-2" id="login">
@@ -29,8 +29,8 @@ const Login = () => {
                     <i className="fa-brands fa-facebook"></i> Facebook
                   </button>
                 </div>
-                <div className="col-md-6 mt-4">
-                  <img src="https://thumbs.dreamstime.com/b/technology-class-using-smart-whiteboard-flat-design-side-view-tech-savvy-classroom-theme-animation-monochromatic-color-scheme-320055947.jpg" alt="Person reading" width="60%" />
+                <div className="col-md-6 mt-5">
+                  <img src="https://thumbs.dreamstime.com/b/technology-class-using-smart-whiteboard-flat-design-side-view-tech-savvy-classroom-theme-animation-monochromatic-color-scheme-320055947.jpg" alt="Person reading" width="60%"/>
                 </div>
               </div>
             </div>

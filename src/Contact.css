@@ -1,0 +1,30 @@
+.card {
+    transition: transform 0.2s;
+    background: #f2f2f2;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.container {
+    padding: 30px;
+}
+
+    body,html{
+    overflow-x:hidden;
+}  
+#box{
+border:1px solid black;
+height: 600px;
+width: 600px;
+background: cadetblue;
+border:none;
+padding-left:60px;
+
+border-radius: 10px;
+}   
+
+@media(max-width:460px){
+#box{
+padding-right:40px;
+}
+}

@@ -22,6 +22,9 @@ const Header = () => {
   const handleLogin =()=>{
     navigate("/login")
   }
+  const hanldeContact =()=>{
+    navigate('/contact')
+  }
 
   return (
     <div>
@@ -38,7 +41,7 @@ const Header = () => {
                         <ul id="ul">
                             <li onClick={handleHome}>Home</li>
                              <li onClick={handleAbout}>About </li>
-                            <li>Contact</li>
+                            <li onClick={hanldeContact}>Contact</li>
                           <li onClick={handleLogin}>Login</li>
                         </ul>
                     </div>
