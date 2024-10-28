@@ -8,7 +8,7 @@ const Index = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <video autoPlay muted controls>
-              <source src="video/second.mp4" type="video/mp4" />
+              <source src="https://videos.pexels.com/video-files/2282016/2282016-uhd_2732_1440_24fps.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -126,9 +126,20 @@ const Index = () => {
 
       <div className="row mt-2">
         <div className="col-md-3 g-0">
-          <img src="https://images.pexels.com/photos/12507496/pexels-photo-12507496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width="100%" height="310" />
+          <img src="https://images.pexels.com/photos/53577/hotel-architectural-tourism-travel-53577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width="100%" height="310" />
         </div>
+        <div className="col-md-3 g-0">
+          <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" width="100%" height="310" />
+        </div>
+        <div className="col-md-3 g-0">
+          <img src= "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" width="100%" height="310" />
+        </div>
+        <div className="col-md-3 g-0">
+          <img src="https://images.pexels.com/photos/1001965/pexels-photo-1001965.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" width="100%" height="310" />
+        </div>
+        
         {/* Additional Images */}
+
       </div>
     </div>
   );
