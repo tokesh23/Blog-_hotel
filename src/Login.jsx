@@ -1,127 +1,45 @@
 import React from 'react';
-import "./Login.css"
+import "./Login.css";
+import Footer from './layout/Footer';
 
 const Login = () => {
   return (
     <div>
-      <div className="container">
-        <div className="row text-center">
-          <div className="col-md-3 mb-4">
-            <div className="card border-light shadow-sm">
-              <div className="card-body">
-                <h1>
-                  <i className="fa-sharp fa-solid fa-location-dot" style={{ color: 'skyblue' }}></i>
-                </h1>
-                <p><strong>Our Main Office</strong></p>
-                <p>SoHo 94 Broadway St New</p>
-                <p>York, NY 1001</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-3 mb-4">
-            <div className="card border-light shadow-sm">
-              <div className="card-body">
-                <h1>
-                  <i className="fa-duotone fa-solid fa-phone" style={{ color: 'skyblue' }}></i>
-                </h1>
-                <p><strong>Contact Us</strong></p>
-                <p>SoHo 94 Broadway St New</p>
-                <p>York, NY 1001</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-3 mb-4">
-            <div className="card border-light shadow-sm">
-              <div className="card-body">
-                <h1>
-                  <i className="fa-brands fa-whatsapp" style={{ color: 'skyblue' }}></i>
-                </h1>
-                <p><strong>WhatsApp</strong></p>
-                <p>SoHo 94 Broadway St New</p>
-                <p>York, NY 1001</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-3 mb-4">
-            <div className="card border-light shadow-sm">
-              <div className="card-body">
-                <h1>
-                  <i className="fa-solid fa-envelope" style={{ color: 'skyblue' }}></i>
-                </h1>
-                <p><strong>Email Us</strong></p>
-                <p>SoHo 94 Broadway St New</p>
-                <p>York, NY 1001</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="row text-center">
-        <div className="col-md-12">
-          <h1>Contact Us</h1>
-        </div>
-
+      <div id="main">
         <div className="container">
-          <div className="row d-flex justify-content-center">
-            <div className="col-md-12" id="box">
-              <div className="row mt-3">
-                <div className="col-md-5 gy-5">
+          <div className="row">
+            <div className="col-md-12 mt-5" id="white">
+              <div className="row text-center">
+                <div className="col-md-6 pt-2" id="login">
+                  <h4><b>Login</b></h4>
+                  <p className="dont">Doesn't have an account yet? <span><a href="">Sign up</a></span></p>
+
                   <form>
-                    <div className="form-group">
-                      <label htmlFor="username" style={{ color: 'white' }}><b>Username</b></label>
-                      <input type="text" className="form-control" id="username" placeholder="Enter your username" required />
-                    </div>
-
-                    <div className="form-group mt-5">
-                      <label htmlFor="mobile" style={{ color: 'white' }}><b>Mobile Number</b></label>
-                      <input type="text" className="form-control" id="mobile" placeholder="Enter your mobile number" required />
-                    </div>
-
-                    <div className="form-group mt-5" style={{ color: 'white' }}>
-                      <label htmlFor="address"><b>Address</b></label>
-                      <input type="text" className="form-control" id="address" placeholder="Enter your address" required />
-                    </div>
+                    <label htmlFor="email"><b>Email Address</b></label><br />
+                    <input type="email" id="email" placeholder="Email Address" required /><br />
+                    <label htmlFor="password" className="mt-4"><b>Password</b></label><br />
+                    <input type="password" id="password" placeholder="Password" required />
+                    <button type="submit" className="btn" id="btn">Login</button>
                   </form>
+
+                  <button type="button" className="btn btn-primary btn-lg" id="socil-btn" style={{ color: 'brown', borderColor: 'brown' }}>
+                    <i className="fa-brands fa-google"></i> Google
+                  </button>
+                  <button type="button" className="btn btn-primary btn-lg" id="socil-btn" style={{ color: 'blue' }}>
+                    <i className="fa-brands fa-facebook"></i> Facebook
+                  </button>
                 </div>
-
-                <div className="col-md-5 gy-5">
-                  <form>
-                    <div className="form-group" style={{ color: 'white' }}>
-                      <label htmlFor="fatherName"><b>Father's Name</b></label>
-                      <input type="text" className="form-control" id="fatherName" placeholder="Enter your father's name" required />
-                    </div>
-
-                    <div className="form-group mt-5">
-                      <label htmlFor="whatsapp" style={{ color: 'white' }}><b>WhatsApp Number</b></label>
-                      <input type="text" className="form-control" id="whatsapp" placeholder="Enter your WhatsApp number" required />
-                    </div>
-
-                    <div className="form-group mt-5" style={{ color: 'white' }}>
-                      <label htmlFor="email"><b>Email</b></label>
-                      <input type="email" className="form-control" id="email" placeholder="Enter your email" required />
-                    </div>
-                  </form>
+                <div className="col-md-6 mt-4">
+                  <img src="https://thumbs.dreamstime.com/b/technology-class-using-smart-whiteboard-flat-design-side-view-tech-savvy-classroom-theme-animation-monochromatic-color-scheme-320055947.jpg" alt="Person reading" width="60%" />
                 </div>
-              </div>
-
-              <div className="col-md-12 mt-4">
-                <div className="form-group">
-                  <label htmlFor="message" id="msg" style={{ color: 'white' }}>Message</label>
-                  <textarea className="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
-                </div>
-              </div>
-
-              <div className="col-md-12 mt-4">
-                <button type="button" className="btn btn-primary" id="btn">Send</button>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      
+      <Footer />
     </div>
   );
 };

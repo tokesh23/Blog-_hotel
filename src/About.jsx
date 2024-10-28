@@ -1,5 +1,7 @@
 import React from 'react';
 import "./About.css"
+import Footer from './layout/Footer';
+ 
 const About = () => {
   return (
     <div>
@@ -70,7 +72,7 @@ const About = () => {
                   src="https://images.pexels.com/photos/12507496/pexels-photo-12507496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt="Beautiful Scenery"
                   width="100%"
-                  height="310vh"
+                  
                 />
               </div>
               <div className="col-md-2">
@@ -104,9 +106,11 @@ const About = () => {
             </div>
           </div>
         </div>
+        
       </div>
-
-      <hr />
+      
+       
+      <Footer/>
         
     </div>
   );

@@ -4,8 +4,8 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <div>
-      <div className="row  pt-2" id="blue">
-        <div className="col-md-4 text-center">
+      <div className="row " id="blue">
+        <div className="col-md-4 text-center mt-2">
           <h3 style={{ color: '#bee9e8' }}>Stay informed</h3>
           <p className="text-light" style={{ fontSize: '0.82em' }}>Sign up for our newsletter.</p>
         </div>
@@ -61,12 +61,12 @@ const Footer = () => {
 
         <div className="container">
           <div className="row text-center">
-            <div className="col-md-12">
-              <hr />
-              <p style={{ color: 'gray' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum odit eum quas facilis totam dignissimos, aspernatur nulla aliquam doloribus fugit beatae.</p>
-              <p style={{ color: 'gray' }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, quasi.</p>
-              <p style={{ color: 'gray' }}>Lorem ipsum &copy; 2024</p>
-            </div>
+              <div className="col-md-12">
+                <hr />
+                <p style={{ color: 'gray' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum odit eum quas facilis totam dignissimos, aspernatur nulla aliquam doloribus fugit beatae.</p>
+                <p style={{ color: 'gray' }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, quasi.</p>
+                <p style={{ color: 'gray' }}>Lorem ipsum &copy; 2024</p>
+              </div>
           </div>
         </div>
       </div>

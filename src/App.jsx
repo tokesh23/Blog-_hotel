@@ -17,14 +17,13 @@ const App = () => {
          <Route path="/header" element={<Header/>} />
          <Route path="/about" element={<About/>} />
          <Route path="/home" element={<Index/>} />
-         <Route path="/footer" element={<Footer />} />
          <Route path='/login' element ={<Login/>}/>
           
       </Routes>
    
     </Router> 
    
-   
+  
 
     </div>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import "./ind.css"
+import Footer from './layout/Footer';
 
 const Index = () => {
   return (
@@ -141,6 +142,7 @@ const Index = () => {
         {/* Additional Images */}
 
       </div>
+      <Footer/>
     </div>
   );
 };

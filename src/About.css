@@ -1,6 +1,4 @@
-body,html{
-    overflow-x:hidden;
-}
+ 
 
     #img{
         height: 45vh;
@@ -10,10 +8,7 @@ body,html{
         
     }
      
-#social{
-height: 75px;
-}
-
+ 
 @media (max-width: 460px) {
 #social{
     height: auto;

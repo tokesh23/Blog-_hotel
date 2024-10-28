@@ -6,7 +6,7 @@ import { FaPinterest } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import Blog from "../assets/blog-removebg-preview.png";
 import { useNavigate } from 'react-router-dom';
-import About from "../About.jsx"
+ 
 
 
 const Header = () => {
@@ -49,9 +49,6 @@ const Header = () => {
                     <CiTwitter />
                     </div>
 
-
-
-                   
                 </div>
  
     </div>
