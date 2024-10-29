@@ -3,7 +3,7 @@
     color:white;
 }
 
- #ipt{
+ #iptt{
     background: #001d3d;
     width: 250px;
    height: 40px;
@@ -19,6 +19,9 @@
     color: black;
     border: none;
     border-radius: 0px;
+    position: relative;
+    
+  
     
  }
    

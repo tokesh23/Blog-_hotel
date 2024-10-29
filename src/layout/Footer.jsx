@@ -10,8 +10,8 @@ const Footer = () => {
           <p className="text-light" style={{ fontSize: '0.82em' }}>Sign up for our newsletter.</p>
         </div>
 
-        <div className="col-md-8 text-center mt-4">
-          <input type="text" placeholder="Your Email Address" id="ipt" />
+        <div className="col-md-8 text-center mb-5  ">
+          <input  type="text" placeholder="Your Email Address" id="iptt" />
           <button type="button" className="btn btn-primary btn-lg" id="btn">
             Subscribe <i className="fas fa-arrow-right" />
           </button>
@@ -38,9 +38,9 @@ const Footer = () => {
         <div className="col-md-3 mt-3 text-center">
           <p><b>Stories</b><br /><span style={{ fontSize: '0.80em', color: 'gray' }}>Find out what makes Mass General input Get inspired</span></p>
           <hr />
-          <p className="text-start mt-5"><b>Events</b><br /><span style={{ fontSize: '0.80em', color: 'gray' }}>Turn your empathy into action. Get involved.</span></p>
-          <p className="text-start mt-5"><b>Where to Give</b><br /><span style={{ fontSize: '0.80em', color: 'gray' }}>Where can you make a difference? Get informed</span></p>
-          <p className="text-start mt-5"><b>How to give</b><br /><span style={{ fontSize: '0.80em', color: 'gray' }}>Turn your empathy into action. Get involved.</span></p>
+          <p className=" mt-5"><b>Events</b><br /><span style={{ fontSize: '0.80em', color: 'gray' }}>Turn your empathy into action. Get involved.</span></p>
+          <p className=" mt-5"><b>Where to Give</b><br /><span style={{ fontSize: '0.80em', color: 'gray' }}>Where can you make a difference? Get informed</span></p>
+          <p className=" mt-5"><b>How to give</b><br /><span style={{ fontSize: '0.80em', color: 'gray' }}>Turn your empathy into action. Get involved.</span></p>
         </div>
 
         <div className="col-md-3 text-center">

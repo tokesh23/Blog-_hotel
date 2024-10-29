@@ -38,7 +38,7 @@ display: flex;
 gap: 50px;
 list-style: none;
 font-size: 13px;
-
+ 
 }
 
  
@@ -54,4 +54,11 @@ background: #f2f2f2;
 }
 #content{
     cursor: pointer;
+}
+
+@media(max-width:460px){
+    #icon{
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
 }

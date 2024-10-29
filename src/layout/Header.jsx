@@ -32,9 +32,9 @@ const Header = () => {
                     <div className="col-md-2 mt-2">
                         <img src={Blog} alt="" width="40%"/>
                     </div>
-                    <div className="col-md-3 mt-3">
-                        <input type="text" placeholder="Search" id="ipt"/>
-                        <i className="fa-solid fa-magnifying-glass" id="search_icon"></i>
+                    <div className="col-md-3 mt-2">
+                    <input type="text" id="ipt" name="search" placeholder="Search" />
+                       
                         {/* <b><hr id="hr" className="text-center"></b> */}
                     </div>
                     <div className="col-md-4 mt-3" id='content'> 
@@ -45,7 +45,7 @@ const Header = () => {
                           <li onClick={handleLogin}>Login</li>
                         </ul>
                     </div>
-                    <div className="col-md-2 mt-3" id="icon" > 
+                    <div className="col-md-2 mt-3 " id="icon" > 
                     <FaFacebook />
                     <CiInstagram />
                     <FaPinterest />
@@ -53,7 +53,7 @@ const Header = () => {
                     </div>
 
                 </div>
- 
+               
     </div>
   )
 }

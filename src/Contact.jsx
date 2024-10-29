@@ -1,7 +1,10 @@
 import React from 'react';
 import "./Contact.css"
 import Footer from './layout/Footer';
-
+import { CiLocationOn } from "react-icons/ci";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaRocketchat } from "react-icons/fa";
+import { MdOutlineMailOutline } from "react-icons/md";
 const Contact = () => {
   return (
     <div>
@@ -10,7 +13,9 @@ const Contact = () => {
           <div className="col-md-3 mb-4">
             <div className="card border-light shadow-sm">
               <div className="card-body">
-                <h1><i className="fa-sharp fa-solid fa-location-dot" style={{ color: 'skyblue' }}></i></h1>
+                <h1>
+                <CiLocationOn />
+                </h1>
                 <p><strong>Our Main Office</strong></p>
                 <p>SoHo 94 Broadway St New</p>
                 <p>York, NY 1001</p>
@@ -20,7 +25,7 @@ const Contact = () => {
           <div className="col-md-3 mb-4">
             <div className="card border-light shadow-sm">
               <div className="card-body">
-                <h1><i className="fa-solid fa-phone" style={{ color: 'skyblue' }}></i></h1>
+                <h2><FaPhoneAlt /></h2>
                 <p><strong>Phone Number</strong></p>
                 <p>+1 (123) 456-7890</p>
                 <p>Support 24/7</p>
@@ -30,7 +35,8 @@ const Contact = () => {
           <div className="col-md-3 mb-4">
             <div className="card border-light shadow-sm">
               <div className="card-body">
-                <h1><i className="fa-brands fa-whatsapp" style={{ color: 'skyblue' }}></i></h1>
+                <h1> <FaRocketchat />
+                </h1>
                 <p><strong>WhatsApp</strong></p>
                 <p>+1 (123) 456-7890</p>
               </div>
@@ -39,7 +45,7 @@ const Contact = () => {
           <div className="col-md-3 mb-4">
             <div className="card border-light shadow-sm">
               <div className="card-body">
-                <h1><i className="fa-solid fa-envelope" style={{ color: 'skyblue' }}></i></h1>
+                <h1><MdOutlineMailOutline /></h1>
                 <p><strong>Email Us</strong></p>
                 <p>info@company.com</p>
               </div>

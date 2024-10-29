@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './layout/Header';
 import Index from './Index';
-import Footer from './layout/Footer.jsx';
+ 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './About.jsx';
 import Login from "./Login.jsx"
@@ -26,7 +26,7 @@ const App = () => {
    
     </Router> 
    
-  
+   
 
     </div>
   );

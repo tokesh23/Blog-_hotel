@@ -9,19 +9,19 @@ const Index = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <video autoPlay muted controls>
-              <source src="https://videos.pexels.com/video-files/2282016/2282016-uhd_2732_1440_24fps.mp4" type="video/mp4" />
+              <source src="https://videos.pexels.com/video-files/3308993/3308993-hd_1920_1080_30fps.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
           <div className="carousel-item">
             <video autoPlay muted controls>
-              <source src="video/Hotel.mp4" type="video/mp4" />
+              <source src="https://videos.pexels.com/video-files/3285785/3285785-sd_640_360_30fps.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
           <div className="carousel-item">
             <video autoPlay muted controls>
-              <source src="video/third.mp4" type="video/mp4" />
+              <source src="https://videos.pexels.com/video-files/2425846/2425846-sd_640_360_24fps.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -110,8 +110,8 @@ const Index = () => {
       </div>
       
       {/* Social Section */}
-      <div className="row text-center bg-primary pt-2 text-light d-flex justify-content-center" id="social">
-        <div className="col-md-2" id="soci-icon">
+      <div className="row text-center bg-primary pt-2 text-light d-flex justify-content-center " id="social">
+        <div className="col-md-2" >
           <i className="fa-brands fa-facebook" style={{ fontSize: '1.40em' }}></i> Facebook
         </div>
         <div className="col-md-2">
@@ -125,7 +125,7 @@ const Index = () => {
         </div>   
       </div>
 
-      <div className="row mt-2">
+      <div className="row">
         <div className="col-md-3 g-0">
           <img src="https://images.pexels.com/photos/53577/hotel-architectural-tourism-travel-53577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width="100%" height="310" />
         </div>

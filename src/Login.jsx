@@ -29,8 +29,8 @@ const Login = () => {
                     <i className="fa-brands fa-facebook"></i> Facebook
                   </button>
                 </div>
-                <div className="col-md-6 mt-5">
-                  <img src="https://thumbs.dreamstime.com/b/technology-class-using-smart-whiteboard-flat-design-side-view-tech-savvy-classroom-theme-animation-monochromatic-color-scheme-320055947.jpg" alt="Person reading" width="60%"/>
+                <div className="col-md-6 mt-1">
+                  <img src="https://thumbs.dreamstime.com/b/technology-class-using-smart-whiteboard-flat-design-side-view-tech-savvy-classroom-theme-animation-monochromatic-color-scheme-320055947.jpg" alt="Person reading" width="80%"/>
                 </div>
               </div>
             </div>
